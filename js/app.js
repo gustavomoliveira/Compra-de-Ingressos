@@ -22,6 +22,7 @@ function comprar() {
     }
 }
 
+
 function comprarPista(quantidadeIngresso) {
     let quantidadePista = parseInt(document.getElementById("qtd-pista").textContent);
 
