@@ -8,11 +8,6 @@ function comprar() {
         return;
     }
 
-    if(!tipoIngresso || tipoIngresso.trim() === " ") {
-        alert("Ingresso inválido. Selecione qual tipo de ingresso você deseja");
-        return;
-    }
-
     if(tipoIngresso == "pista") {
         comprarPista(quantidadeIngresso);
     } else if(tipoIngresso == "superior") {
